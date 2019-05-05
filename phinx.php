@@ -11,6 +11,6 @@
                 "host" => getenv('RDS_HOSTNAME'),
                 "name" => getenv('RDS_DB_NAME'),
                 "user" => getenv('RDS_USERNAME'),
-                "pass" => ""            ]
+                "pass" => getenv('RDS_PASSWORD'),            ]
         ]
     ];
